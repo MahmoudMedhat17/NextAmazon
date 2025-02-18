@@ -39,6 +39,6 @@ const Search = async() => {
         </Button>
     </form>
   )
-}
+};
 
-export default Search
+export default Search;
