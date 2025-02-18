@@ -9,7 +9,7 @@ import { data } from "@/lib/data";
 
 
 
-const Index = () => {
+const Header = () => {
     return (
         <header className="bg-black text-white">
             <div className="px-2">
@@ -56,4 +56,4 @@ const Index = () => {
     )
 }
 
-export default Index;
+export default Header;
