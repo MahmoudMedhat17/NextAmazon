@@ -8,7 +8,7 @@ import {
     SelectValue,
   } from "@/components/ui/select"
 import { SearchIcon } from "lucide-react";
-import {APPNAME} from "@/lib/constants";  
+import {APP_NAME} from "@/lib/constants";  
 
 const Search = async() => {
 
@@ -33,7 +33,7 @@ const Search = async() => {
             }
           </SelectContent>
         </Select>
-        <Input placeholder={`Search site ${APPNAME}`} className="h-full flex-1 bg-gray-100 dark:border-gray-200 text-black rounded-none text-base" name="q" type="search"/>
+        <Input placeholder={`Search site ${APP_NAME}`} className="h-full flex-1 bg-gray-100 dark:border-gray-200 text-black rounded-none text-base" name="q" type="search"/>
         <Button type="submit" className="bg-primary text-primary-foreground text-black h-full rounded-s-none rounded-e-md px-3 py-2">
           <SearchIcon className="w-6 h-6"/>
         </Button>

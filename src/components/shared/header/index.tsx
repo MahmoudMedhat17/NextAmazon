@@ -1,4 +1,4 @@
-import { APPNAME } from "@/lib/constants";
+import { APP_NAME } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Search from "./Search";
@@ -18,8 +18,8 @@ const Index = () => {
                     {/* Logo and Website name */}
                     <div className="flex items-center">
                         <Link href="/" className="header-button flex items-center font-extrabold">
-                            <Image src="/icons/logo.svg" width={40} height={40} alt={`${APPNAME} logo`}/>
-                            {APPNAME}
+                            <Image src="/icons/logo.svg" width={40} height={40} alt={`${APP_NAME} logo`}/>
+                            {APP_NAME}
                         </Link>
                     </div>
                     {/* Search bar */}
@@ -37,7 +37,7 @@ const Index = () => {
             {/* Second navbar */}
             <div className="px-3 bg-gray-800 flex items-center mb-[1px]">
                 {/* Button to click on and shows a sidebar */}
-                <Button variant="ghost" className="flex items-center gap-1 text-base header-button [&svg]:size-6">
+                <Button variant="ghost" className="dark header-button flex items-center gap-1 text-base header-button [&svg]:size-6">
                     <MenuIcon/>
                     All
                 </Button>

@@ -3,7 +3,7 @@
 import {ChevronUp} from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { APPNAME } from "@/lib/constants";
+import { APP_NAME } from "@/lib/constants";
 
 const Footer = () => {
 
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center justify-center">
                 <p>
-                © 2000-{yearlyDate}, {APPNAME}, Inc. or its affiliates
+                © 2000-{yearlyDate}, {APP_NAME}, Inc. or its affiliates
                 </p>
             </div>
             <div className="mt-8 flex items-center justify-center text-sm">
